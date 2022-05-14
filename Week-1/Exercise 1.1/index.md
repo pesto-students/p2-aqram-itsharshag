@@ -31,5 +31,3 @@ Hence, the use of the rendering engine is to parse and display the requested HTM
 
 ### d. Parsers (HTML, CSS, etc)
 **HTML Parser:** The job of the HTML parser is to parse the HTML markup into a parse tree. The algorithm consists of two stages: tokenization and tree construction.
-
-### Order of script processing
