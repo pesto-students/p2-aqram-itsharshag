@@ -31,3 +31,9 @@ Hence, the use of the rendering engine is to parse and display the requested HTM
 
 ### d. Parsers (HTML, CSS, etc)
 **HTML Parser:** The job of the HTML parser is to parse the HTML markup into a parse tree. The algorithm consists of two stages: tokenization and tree construction.
+
+### h. Layout and Painting
+When the renderer is created and added to the tree, it does not have a position and size. Calculating these values is called layout or reflow.
+
+In the painting stage, the render tree is traversed and the renderer's "paint()" method is called to display content on the screen. Painting uses the UI infrastructure component.
+
